@@ -11,6 +11,7 @@ export const typeDefs = gql`
   }
 
   type Mutation {
+    "Increment number of track views by track ID"
     incrementTrackViews(id: ID!): IncrementTrackViewsResponse!
   }
 
